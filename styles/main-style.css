@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
@@ -173,7 +173,7 @@ li a:hover {
     }
     .skills { 
         grid-area: skills;
-        font-family: 'Homemade Apple', cursive; 
+        font-family: 'Sedgwick Ave', cursive;
     }
 
 .img-scale {
@@ -182,4 +182,116 @@ li a:hover {
     align-items: center;
     justify-content: center;
     display: block;
-} 
+}
+
+.sonto {
+  background-image: url("/assets/img/toolsnsoftware-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "gimp vsc molecule"
+    ". snt ."
+    "linux git github"; 
+}
+
+.molecule { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3640;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  grid-area: molecule; 
+}
+
+.linux { 
+  grid-area: linux;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3640;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.git { 
+  grid-area: git;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3640;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.github { 
+  grid-area: github;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3640;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.vsc { 
+  grid-area: vsc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3640;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.gimp { 
+  grid-area: gimp;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3640;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.snt { 
+  grid-area: snt; 
+  font-family: 'Sedgwick Ave', cursive;
+}
