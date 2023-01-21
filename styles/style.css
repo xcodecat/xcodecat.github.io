@@ -6,14 +6,15 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/assets/img/background.jpg);
-    background-position: center;
+    /* width: 100vw;
+    height: 100vh; */
+    background-image: url(/assets/img/Unbenannt.png);
+    /* background-position: center; */
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.container {  
+/* .container {  
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -49,4 +50,4 @@ body {
     grid-area: wip; 
     color: white;
     font-family: 'Fira Code', monospace;
-}  
+}   */
