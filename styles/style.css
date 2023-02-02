@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #413c43;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". GitHub ."
+      ". name ."
+      ". about-me .";
+      color: white;
+      margin: 0;
+  }
+  
+  .name {
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center;
+    justify-self: center; 
+    align-self: center;    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "xcodecat"
+      "subtitle";
+    grid-area: name;
+    margin: 0;
+  }
+  
+  .xcodecat {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: end;
+    grid-area: xcodecat;
+    font-size: 72px;
+    font-family: 'Quicksand', sans-serif;
+    width: max-content;
+    height: min-content;
+    margin: 0;
+  }
+  
+  .subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: start;
+    grid-area: subtitle;
+    font-size: 24px;
+    width: max-content;
+    height: min-content;
+    margin: 0;
+    margin-top: -10px;
+  }
+  
+  .GitHub {
+    justify-self: center;
+    align-self: start;
+    grid-area: GitHub;
+    font-size: 36px;
+  }
+
+  .GitHub a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .GitHub a {
+    text-decoration: none;
+  } 
+
+  a:hover {
+    color: /*#91b0a9*/ #B68883 !important;
+  }
+  
+  .about-me {
+    color: white;
+    justify-self: center;
+    align-self: end;
+    grid-area: about-me;
+    font-size: 36px;
+  }
+  .about-me a:visited {
+    color: white;
+  }
+  .about-me a {
+    color: white;
+    text-decoration: none;
+  }
+  
